@@ -12,7 +12,7 @@ minecraft-server:
     - MOTD:Lekker by die see
     - LEVEL_TYPE:default
     - LEVEL:world
-    - JVM_OPTS:-Xmx1024M -Xms1024M
+    - "JVM_OPTS:-Xmx1024M -Xms1024M"
  
   volumes:
     - ./data:/data
