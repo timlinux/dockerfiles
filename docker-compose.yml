@@ -3,7 +3,19 @@ minecraft-server:
     - "25565:25565"
 
   environment:
-    EULA: TRUE
+    - EULA:TRUE
+    - VERSION:LATEST
+    - DIFFICULTY:peaceful
+    - WHITELIST:JasmineJabbie,timlinux,StellarCake
+    - SEED:1785852800490497919 
+    - MODE:survival
+    - MOTD:Lekker by die see
+    - LEVEL_TYPE:default
+    - LEVEL:world
+    - JVM_OPTS:-Xmx1024M -Xms1024M
+ 
+  volumes:
+    - ./data:/data
 
   image: itzg/minecraft-server
 
