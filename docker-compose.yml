@@ -7,6 +7,7 @@ minecraft-server:
     - VERSION=LATEST
     - DIFFICULTY=peaceful
     - WHITELIST=JasmineJabbie,timlinux,StellarCake
+    - OPS=JasmineJabbie,timlinux,StellarCake
     - SEED=1785852800490497919 
     - MODE=survival
     - MOTD=Lekker by die see
